@@ -29,7 +29,7 @@ public class Loteria {
         System.out.println("Digite 15 números que serão sorteados de 1 a 50 números.");
         
         for (int i = 1; i <= 15; i++) {
-            System.out.println("Falta mais " + i + " números!!");
+            System.out.println("Números jogados: " + i );
 
             Integer numeroDigitado = leitor.nextInt();
 
